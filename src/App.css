@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import './components/Products.css';
+@import './components/Promise.css';
+@import './components/Gallery.css';
+@import './components/Contact.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+:root {
+  --coffee-dark:  #160a06;
+  --coffee-brown: #3d1c0c;
+  --coffee-mid:   #6b3520;
+  --coffee-warm:  #a0522d;
+  --coffee-light: #c8874f;
+  --cream:        #f5e6c8;
+  --cream-light:  #fdf6e3;
+  --gold:         #d4a84b;
+  --gold-light:   #f0c96b;
+  --text-dark:    #1a0f0a;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--coffee-dark);
+  color: var(--cream);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--coffee-dark); }
+::-webkit-scrollbar-thumb { background: var(--coffee-warm); border-radius: 3px; }
+
+.app {
+  position: relative;
+  min-height: 100vh;
+}
