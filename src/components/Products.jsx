@@ -2,24 +2,24 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 // Featured Main Images
-import coffeeMain from '../assets/collection_coffee_main.png';
-import ambienceMain from '../assets/collection_ambience_main.png';
-import dessertMain from '../assets/collection_dessert_main.png';
+import coffeeMain from '../assets/collection_coffee_main.webp';
+import ambienceMain from '../assets/collection_ambience_main.webp';
+import dessertMain from '../assets/collection_dessert_main.webp';
 
 // Coffee Thumbnails
-import coffeeSub1 from '../assets/collection_coffee_sub1.png';
-import coffeeSub2 from '../assets/coffee_sub2.jpg';
-import coffeeSub3 from '../assets/coffee_sub3.jpg';
+import coffeeSub1 from '../assets/collection_coffee_sub1.webp';
+import coffeeSub2 from '../assets/coffee_sub2.webp';
+import coffeeSub3 from '../assets/coffee_sub3.webp';
 
 // Ambience Thumbnails
-import ambienceSub1 from '../assets/ambience_sub1.jpg';
-import ambienceSub2 from '../assets/ambience_sub2.jpg';
-import ambienceSub3 from '../assets/ambience_sub3.jpg';
+import ambienceSub1 from '../assets/ambience_sub1.webp';
+import ambienceSub2 from '../assets/ambience_sub2.webp';
+import ambienceSub3 from '../assets/ambience_sub3.webp';
 
 // Dessert Thumbnails
-import dessertSub1 from '../assets/dessert_sub1.jpg';
-import dessertSub2 from '../assets/dessert_sub2.jpg';
-import dessertSub3 from '../assets/dessert_sub3.jpg';
+import dessertSub1 from '../assets/dessert_sub1.webp';
+import dessertSub2 from '../assets/dessert_sub2.webp';
+import dessertSub3 from '../assets/dessert_sub3.webp';
 
 import './Products.css';
 

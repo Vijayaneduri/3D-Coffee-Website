@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import homePage from '../assets/home_page.png';
+import homePage from '../assets/home_page.webp';
 import './Hero.css';
 
 const BeanIcon = () => (

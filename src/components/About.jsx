@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import aboutCoffee from '../assets/about_coffee.jpg';
-import aboutMachine from '../assets/about_machine.jpg';
+import aboutCoffee from '../assets/about_coffee.webp';
+import aboutMachine from '../assets/about_machine.webp';
 import './About.css';
 
 // SVG Icons matching the mockup
@@ -28,7 +28,7 @@ const EcoLeafIcon = () => (
 
 export default function About() {
   const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, { once: true, amount: 0.2 });
+  const isInView = useInView(sectionRef, { once: true, amount: 0.1 });
 
   return (
     <section className="about" id="about" ref={sectionRef}>
@@ -36,25 +36,20 @@ export default function About() {
         {/* Main Floating Rounded Card */}
         <motion.div
           className="about-floating-card"
-          initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 0, y: 35 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.85, ease: [0.25, 0.1, 0.25, 1] }}
         >
           {/* Top 3-Column Area: Left Image | Center Content | Right Image */}
           <div className="about-main-grid">
             {/* Left Image: Latte Art on Coffee Beans */}
-            <motion.div
-              className="about-image-col left-col"
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={isInView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ delay: 0.2, duration: 0.8 }}
-            >
+            <div className="about-image-col left-col">
               <img
                 src={aboutCoffee}
                 alt="Artisan Latte with Latte Art"
                 className="about-side-img"
               />
-            </motion.div>
+            </div>
 
             {/* Center Content Column */}
             <div className="about-center-col">
@@ -115,27 +110,17 @@ export default function About() {
             </div>
 
             {/* Right Image: La Marzocco Espresso Machine */}
-            <motion.div
-              className="about-image-col right-col"
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={isInView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ delay: 0.3, duration: 0.8 }}
-            >
+            <div className="about-image-col right-col">
               <img
                 src={aboutMachine}
                 alt="La Marzocco Espresso Machine in Café"
                 className="about-side-img"
               />
-            </motion.div>
+            </div>
           </div>
 
           {/* Bottom Full-Width Stats Bar */}
-          <motion.div
-            className="about-stats-bar"
-            initial={{ opacity: 0, y: 25 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ delay: 0.5, duration: 0.7 }}
-          >
+          <div className="about-stats-bar">
             <div className="about-stat-item">
               <span className="about-stat-number">2018</span>
               <span className="about-stat-label">Brewing Happiness</span>
@@ -155,7 +140,7 @@ export default function About() {
               <span className="about-stat-number">15K+</span>
               <span className="about-stat-label">Happy customers</span>
             </div>
-          </motion.div>
+          </div>
         </motion.div>
       </div>
     </section>

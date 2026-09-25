@@ -1,3 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <text y=".9em" font-size="90">☕</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="7" fill="#140804" />
+  <path d="M7 11h18v2.5a9 9 0 01-18 0V11z" stroke="#deb06c" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M11.5 11V7.5a2.5 2.5 0 115 0V11" stroke="#deb06c" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M25 13.5c2.2 0 3.8-1.2 3.8-2.8s-1.6-2.7-3.8-2.7" stroke="#deb06c" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M9 24.5h14" stroke="#deb06c" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M11.5 22l1.2 2.5M20.5 22l-1.2 2.5" stroke="#deb06c" stroke-width="1.8" stroke-linecap="round"/>
 </svg>

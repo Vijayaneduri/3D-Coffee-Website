@@ -3,14 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // Real Images & Video from assets
 import landingVideo from '../assets/landing_vedio.mp4';
-import homePageImg from '../assets/home_page.png';
-import aboutMachine from '../assets/about_machine.jpg';
-import aboutCoffee from '../assets/about_coffee.jpg';
-import ambienceMain from '../assets/collection_ambience_main.png';
-import dessertMain from '../assets/collection_dessert_main.png';
-import dessertSub1 from '../assets/dessert_sub1.jpg';
-import coffeeSub2 from '../assets/coffee_sub2.jpg';
-import ambienceSub2 from '../assets/ambience_sub2.jpg';
+import homePageImg from '../assets/home_page.webp';
+import aboutMachine from '../assets/about_machine.webp';
+import aboutCoffee from '../assets/about_coffee.webp';
+import ambienceMain from '../assets/collection_ambience_main.webp';
+import dessertMain from '../assets/collection_dessert_main.webp';
+import dessertSub1 from '../assets/dessert_sub1.webp';
+import coffeeSub2 from '../assets/coffee_sub2.webp';
+import ambienceSub2 from '../assets/ambience_sub2.webp';
 
 import './Gallery.css';
 
